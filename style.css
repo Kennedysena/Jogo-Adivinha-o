@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --font-base: "Montserrat", sans-serif;
+  --font-alt: "DM Sans", sans-serif;
+  --color-fonte-base: #34355b;
+  --color-fonte-white: #ffffff;
+  --color-fonte-grey: #dce2e9;
+  --color-fonte-purple: #7879f1;
+}
+
+body {
+  background: linear-gradient(287.56deg, #c2e9fb 0%, #a1c4fd 100%);
+  font-size: 1.6rem;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+body,
+button,
+input {
+  font-family: var(--font-alt);
+}
+
+button {
+  background: var(--color-fonte-purple);
+  color: var(--color-fonte-white);
+  font-weight: bold;
+  font-family: var(--font-alt);
+  border-radius: 0 0.4rem 0.4rem 0;
+  cursor: pointer;
+
+  transform: background 0.3s;
+}
+
+button:hover {
+  background-color: #6363ce;
+}
+
+.hide {
+  display: none;
+}
+
+main {
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+  margin: -12px;
+  width: min(42.8rem, 90%);
+  padding: 4.8rem 6.4rem 6.4rem;
+  background: var(--color-fonte-white);
+  border-radius: 0.6rem;
+  text-align: center;
+}
+
+/*scrren1*/
+h1 {
+  font-size: 2.4rem;
+  font-family: var(--font-base);
+  color: var(--color-fonte-base);
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+}
+
+p {
+  font-family: var(--font-alt);
+  color: var(--color-fonte-base);
+  opacity: 0.8;
+}
+
+form {
+  margin-top: 4.8rem;
+  display: flex;
+  justify-content: center;
+}
+
+input,
+button {
+  border: none;
+  padding: 1.6rem;
+}
+
+input {
+  background: var(--color-fonte-grey);
+  width: 6rem;
+  border-radius: 0.4rem 0 0 0.4rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+/*scrren2*/
+
+h2 {
+  font-size: 2.4rem;
+  font-weight: normal;
+  margin-bottom: 3.3rem;
+}
+
+.screen2 button {
+  border-radius: 0.4rem;
+}
